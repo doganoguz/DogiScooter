@@ -1,16 +1,32 @@
-# scooter
+# DogiScooter
 
-A new Flutter project.
+<b>DogiScooter Nedir?</b>
+<br>
+🔥 DogiScooter, bir UI çalışmasının Flutter'a dökülmüş halidir.
+(Zamanla güncellenecektir)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Önizleme
+![](https://i.hizliresim.com/pyburta.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Mimari
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [x] Constant
+- [x] Utils
+- [x] Helper
+- [x] Models
+- [x] Page
+- [x] Widget
+- [x] Test
+
+# Tasarım Araçları
+
+- [x] Figma 🎨
+
+# Geliştirici Araçları
+
+- [x] Visual Studio Code 👨🏼‍💻
+
+
+💙 <a href="https://pub.dev/" target="_blank"><b>pub.dev</b></a> Eyvallah!
