@@ -2,7 +2,8 @@
 
 <b>DogiScooter Nedir?</b>
 <br>
-🔥 DogiScooter, bir ui çalışmasının Flutter'a dökülmüş halidir.(Zamanla güncellenecektir)
+🔥 DogiScooter, bir UI çalışmasının Flutter'a dökülmüş halidir.
+(Zamanla güncellenecektir)
 
 
 # Önizleme
