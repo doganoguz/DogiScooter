@@ -81,7 +81,7 @@ class _WelcomState extends State<Welcome> {
                   height: 270,
                   width: 700,
                   decoration: BoxDecoration(
-                    color: NowUIColors.card.withOpacity(0.5),
+                    color: NowUIColors.homeclr.withOpacity(0.7),
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(30.0),
                       topLeft: Radius.circular(30.0),
@@ -103,24 +103,26 @@ class _WelcomState extends State<Welcome> {
                           SizedBox(
                             height: 17,
                           ),
-                          Text("Welcome to DogiScooter",
+                          Text("Welcome to E-Scooter",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: NowUIColors.beyaz,
                                 fontSize: 18,
                               )),
                           SizedBox(
-                            height: 4,
+                            height: 8,
                           ),
-                          Text("Get where you want instantly.",
+                          Text("Get where you want instantly",
                               style: TextStyle(
                                 color: NowUIColors.beyaz,
                                 fontSize: 14,
+                                fontFamily: 'Roboto-Regular',
                               )),
                           Text("fast, safe and easy",
                               style: TextStyle(
                                 color: NowUIColors.beyaz,
                                 fontSize: 14,
+                                fontFamily: 'Roboto-Regular',
                               )),
                           SizedBox(
                             height: 20,
@@ -129,8 +131,8 @@ class _WelcomState extends State<Welcome> {
                             minWidth: 335.0,
                             height: 50.0,
                             child: FlatButton(
-                              textColor: NowUIColors.beyaz,
-                              color: NowUIColors.homeclr,
+                              textColor: NowUIColors.homeclr,
+                              color: NowUIColors.beyaz,
                               onPressed: () {
                                 Navigator.push(
                                     context,
@@ -142,10 +144,11 @@ class _WelcomState extends State<Welcome> {
                                 borderRadius: BorderRadius.circular(25.0),
                               ),
                               child: Text(
-                                "Let's Explore! 🛴\u200d",
+                                "Let's Explore!  🛴\u200d",
                                 style: TextStyle(
-                                  color: NowUIColors.beyaz,
-                                  fontSize: 13,
+                                  color: NowUIColors.homeclr,
+                                  fontSize: 14,
+                                  fontFamily: 'Roboto-Regular',
                                   height: 1.5,
                                 ),
                               ),
@@ -168,7 +171,8 @@ class _WelcomState extends State<Welcome> {
                               child: Text('Login',
                                   style: TextStyle(
                                     color: NowUIColors.beyaz,
-                                    fontSize: 13,
+                                    fontSize: 14,
+                                    fontFamily: 'Roboto-Regular',
                                     height: 1.5,
                                   )),
                               onPressed: () {},
