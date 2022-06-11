@@ -55,7 +55,7 @@ dependencies:
   flutter_signin_button: ^2.0.0
   
   
-  fluttertoast: ^8.0.8
+  
  
   simple_icons: ^6.13.0
   
@@ -105,10 +105,21 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 500
+
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - assets/img/login.jpg
+     - assets/img/background.jpg
+     - assets/img/product_1.png
+     - assets/img/fire.png
+     - assets/img/sld.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

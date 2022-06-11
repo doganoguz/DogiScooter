@@ -15,6 +15,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:scooter/constant/color.dart';
+import 'package:scooter/page/dashboard/dashboard.dart';
 import 'package:simple_icons/simple_icons.dart';
 
 TextEditingController usr = TextEditingController();
@@ -67,7 +68,7 @@ class _WelcomState extends State<Welcome> {
             new Container(
               decoration: new BoxDecoration(
                 image: new DecorationImage(
-                  image: new AssetImage("assets/imgs/yedekhome.jpg"),
+                  image: new AssetImage("assets/img/login.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -77,10 +78,10 @@ class _WelcomState extends State<Welcome> {
               width: MediaQuery.of(context).size.width,
               child: Center(
                 child: Container(
-                  height: 300,
+                  height: 270,
                   width: 700,
                   decoration: BoxDecoration(
-                    color: NowUIColors.card.withOpacity(0.7),
+                    color: NowUIColors.card.withOpacity(0.5),
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(30.0),
                       topLeft: Radius.circular(30.0),
@@ -99,44 +100,51 @@ class _WelcomState extends State<Welcome> {
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: <Widget>[
-                          Text("Welcome to Peep",
+                          SizedBox(
+                            height: 17,
+                          ),
+                          Text("Welcome to DogiScooter",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: NowUIColors.beyaz,
                                 fontSize: 18,
                               )),
                           SizedBox(
-                            height: 7,
+                            height: 4,
                           ),
-                          Text("We are the largest NFTs and Pre-Sale ICO",
+                          Text("Get where you want instantly.",
                               style: TextStyle(
-                                color: NowUIColors.textColor,
+                                color: NowUIColors.beyaz,
                                 fontSize: 14,
                               )),
-                          Text("marketplace in the world!",
+                          Text("fast, safe and easy",
                               style: TextStyle(
-                                color: NowUIColors.textColor,
+                                color: NowUIColors.beyaz,
                                 fontSize: 14,
                               )),
                           SizedBox(
-                            height: 27,
+                            height: 20,
                           ),
                           ButtonTheme(
                             minWidth: 335.0,
                             height: 50.0,
                             child: FlatButton(
-                              textColor: NowUIColors.homeclr,
-                              color: NowUIColors.acikyesil,
+                              textColor: NowUIColors.beyaz,
+                              color: NowUIColors.homeclr,
                               onPressed: () {
-                                print("dashboarda gidiyorsun kardeşşşş");
+                                Navigator.push(
+                                    context,
+                                    PageTransition(
+                                        type: PageTransitionType.rightToLeft,
+                                        child: Dashboard()));
                               },
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(25.0),
                               ),
                               child: Text(
-                                "Let's Explore! 🔥\u200d",
+                                "Let's Explore! 🛴\u200d",
                                 style: TextStyle(
-                                  color: NowUIColors.homeclr,
+                                  color: NowUIColors.beyaz,
                                   fontSize: 13,
                                   height: 1.5,
                                 ),

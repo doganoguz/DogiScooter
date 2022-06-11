@@ -3,7 +3,7 @@ import 'dart:ui' show Color;
 class NowUIColors {
   static const Color black = Color(0xFF000000);
 
-  static const Color homeclr = Color(0xFF1F1D2B);
+  static const Color homeclr = Color(0xFF272A2C);
 
   static const Color statusbar = Color(0xFF252836);
   static const Color acikyesil = Color(0xFF0CFEBC);
@@ -18,7 +18,7 @@ class NowUIColors {
   static const Color dashbeyaz = Color(0xFFFFEFEFE);
 
   static const Color signupbtn = Color(0xFFf5f5f5);
-  static const Color btn = Color(0xFF17A1C3);
+  static const Color btn = Color(0xFF979797);
 
   static const Color anasite = Color(0xFF377dff);
   static const Color textColor = Color(0xFF8A8D9F);

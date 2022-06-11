@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
         title: 'DogiScooter',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            backgroundColor: NowUIColors.homeclr, fontFamily: 'Poppins'),
+            backgroundColor: NowUIColors.homeclr, fontFamily: 'Roboto'),
         initialRoute: '/welcome',
         routes: <String, WidgetBuilder>{
           '/welcome': (BuildContext context) => new Welcome(),

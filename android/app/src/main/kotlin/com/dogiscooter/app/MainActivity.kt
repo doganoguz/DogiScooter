@@ -1,4 +1,4 @@
-package com.example.scooter
+package com.dogiscooter.app
 
 import io.flutter.embedding.android.FlutterActivity
 
