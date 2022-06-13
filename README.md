@@ -2,7 +2,7 @@
 
 <b>DogiScooter Nedir?</b>
 <br>
-🔥 DogiScooter, bir UI çalışmasının Flutter'a dökülmüş halidir.
+🛴 DogiScooter, bir UI çalışmasının Flutter'a dökülmüş halidir.
 (Zamanla güncellenecektir)
 
 
@@ -23,6 +23,9 @@
 # Tasarım Araçları
 
 - [x] Figma 🎨
+- [x] Kaynak: 🛴 <a href="https://elements.envato.com/e-scooter-store-ios-mobile-ui-kit-6GS28QK" target="_blank"><b>Scooter Design!/b></a>
+
+
 
 # Geliştirici Araçları
 
