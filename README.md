@@ -23,7 +23,7 @@
 # Tasarım Araçları
 
 - [x] Figma 🎨
-- [x] Kaynak: 🛴 <a href="https://elements.envato.com/e-scooter-store-ios-mobile-ui-kit-6GS28QK" target="_blank"><b>Scooter Design!/b></a>
+- [x] Kaynak: 🛴 <a href="https://elements.envato.com/e-scooter-store-ios-mobile-ui-kit-6GS28QK" target="_blank"><b>Scooter Design - Envato Elements</b></a>
 
 
 
