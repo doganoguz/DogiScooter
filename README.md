@@ -31,5 +31,5 @@
 
 - [x] Visual Studio Code 👨🏼‍💻
 
-<img  width="45px" heigth="45px" src="https://media4.giphy.com/media/EOpZ7XsVfTN2E/giphy.gif" />
+<img  src="https://media4.giphy.com/media/EOpZ7XsVfTN2E/giphy.gif" />
 💙 <a href="https://pub.dev/" target="_blank"><b>pub.dev</b></a> Eyvallah!
