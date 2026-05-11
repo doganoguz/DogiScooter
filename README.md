@@ -1,4 +1,4 @@
-# DogiScooter
+# DogiScooter App
 
 <b>DogiScooter Nedir?</b>
 <br>
